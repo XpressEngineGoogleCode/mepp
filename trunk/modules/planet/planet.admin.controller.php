@@ -33,7 +33,9 @@
             $args->browser_title = Context::get('browser_title');
             $args->is_default = Context::get('is_default');
             $args->skin = Context::get('planet_default_skin');
+			$args->mobile_skin = Context::get('planet_default_mobile_skin');
             $args->layout_srl = Context::get('layout_srl');
+			$args->mlayout_srl = Context::get('mlayout_srl');
 
             $args->module = 'planet';
             $args->module_srl = $is_registed?$module_info->module_srl:getNextSequence();
