@@ -1,0 +1,50 @@
+#summary One-sentence summary of this page.
+플래닛의 스킨 구조를 정리합니다.
+
+= Introduction =
+
+XE 기본 플래닛 스킨의 파일과 폴더 목록을 구조화하여
+스킨을 만드는데 편리하도록 정리하였습니다.
+
+
+= Details =
+
+./css
+./filter
+./images
+./js
+*skin.xml*
+
+header.html
+*main.html*
+footer.html
+
+
+content_list.html
+create.html
+favorite.html
+
+
+interest_tags.html
+login.html
+
+memo_list.html
+message.html
+myPlanet.html
+
+planet_info.include.html
+planet_tab.include.html
+
+reply_list.html
+
+search.html
+search_planet.html
+search_tab.include.html
+
+write.include.html
+
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
