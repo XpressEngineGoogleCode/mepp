@@ -8,36 +8,38 @@ XE 기본 플래닛 스킨의 파일과 폴더 목록을 구조화하여
 
 = Details =
 
-* ./css
-* ./filter
-* ./images
-* ./js
-* *skin.xml*
+디렉토리 및 스킨 정보 파일
+  * ./css
+  * ./filter
+  * ./images
+  * ./js
+  * *skin.xml*
 
-* header.html
-* *main.html*
-* footer.html
+Body 정보를 담은 파일입니다. 헤더에서는 CSS, JS파일을 임폴트합니다.
+  * header.html
+  * *main.html*
+  * footer.html
 
-* login.html
-* write.include.html
-* content_list.html
-* create.html
+  * login.html
+  * write.include.html
+  * content_list.html
+  * create.html
 
-* favorite.html
+  * favorite.html
 
-* interest_tags.html
-* memo_list.html
-* message.html
-* myPlanet.html
+  * interest_tags.html
+  * memo_list.html
+  * message.html
+  * myPlanet.html
 
-* planet_info.include.html
-* planet_tab.include.html
+  * planet_info.include.html
+  * planet_tab.include.html
 
-* reply_list.html
+  * reply_list.html
 
-* search.html
-* search_planet.html
-* search_tab.include.html
+  * search.html
+  * search_planet.html
+  * search_tab.include.html
 
 
 
