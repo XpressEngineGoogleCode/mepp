@@ -27,6 +27,7 @@
 	$lang->about_planet_mid = '플래닛 접속 주소는 http://XE주소/플래닛주소 와 같이 바로 접속가능할 수 있는 주소를 뜻합니다.';
 
 	$lang->planet_default_skin = '플래닛 기본 스킨';
+	$lang->planet_default_mobile_skin = '플래닛 기본 모바일 스킨';
 	$lang->about_planet_default_skin = '플래닛 메인 페이지 및 생성된 플래닛들의 기본 스킨으로 설정됩니다.';
 
 	$lang->planet_comment = '플래닛 한줄 소개';
