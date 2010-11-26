@@ -32,6 +32,8 @@
     * .closeButton
     * .searchHeader
 
+  * write.include.html
+    * #writePost
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
