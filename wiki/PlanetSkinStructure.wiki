@@ -1,4 +1,4 @@
-#summary 플래닛의 스킨 구조를 정리합니다.
+#summary 플래닛의 스킨을 구조화 하였습니다.
 
 = Introduction =
 
