@@ -32,8 +32,23 @@
     * .closeButton
     * .searchHeader
 
-  * write.include.html
+  * *write.include.html*
     * #writePost
+    * .writePost 
+    * .writeHeader
+    * .toggle
+    * .open
+    * .close
+    * #writeBody
+    * .writeBody
+    * #writePostForm
+    * #writePost_content
+    * #preview
+    * .preview .off
+    * #preview_text
+    * .writeOptions
+    * #btn_preview
+
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
