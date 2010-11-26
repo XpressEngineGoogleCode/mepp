@@ -30,7 +30,7 @@ require($this->module_path.'planet.view.php');
 			 * 스킨이 없으면 플래닛 기본 설정의 스킨으로 설정
 			 **/
 			if(!$this->module_info->mobile_skin) $this->module_info->mobile_skin = $this->module_info->planet_default_mobile_skin;
-			$template_path = sprintf("%smobile_skins/%s/",$this->module_path, $this->module_info->skin);
+			$template_path = sprintf("%smobile_skins/%s/",$this->module_path, $this->module_info->mobile_skin);
 			$this->setTemplatePath($template_path);
 
 			/**
@@ -49,6 +49,7 @@ require($this->module_path.'planet.view.php');
 
 			// 플래닛은 별도 레이아웃 동작하지 않도록 변경
 			if(!Context::get('mid')) Context::set('mid', $this->module_info->mid, true);
+
 		}
 
 		/**

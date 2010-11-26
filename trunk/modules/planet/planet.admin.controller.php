@@ -36,7 +36,7 @@
 			$args->mskin = Context::get('planet_default_mobile_skin');
 			$args->layout_srl = Context::get('layout_srl');
 			$args->mlayout_srl = Context::get('mlayout_srl');
-			$args->use_mobile = 'Y'; //Context::get('use_mobile');
+			$args->use_mobile = Context::get('use_mobile');
 			$args->module = 'planet';
 			$args->module_srl = $is_registed?$module_info->module_srl:getNextSequence();
 
@@ -95,7 +95,7 @@
 		}
 
 		function procPlanetAdminInsert() {
-			$args = Context::gets('planet_mid','browser_title','description','module_srl');
+			$args = Context::gets('planet_mid','browser_title','description','module_srl','use_mobile');
 			$args->mid = $args->planet_mid;
 			unset($args->planet_mid);
 
@@ -109,6 +109,7 @@
 			$planet->mid = $args->mid;
 			$planet->browser_title = $args->browser_title;
 			$planet->description = $args->description;
+			$planet->use_mobile = $args->use_mobile;
 
 			$output = $oPlanetController->updatePlanet($planet);
 
