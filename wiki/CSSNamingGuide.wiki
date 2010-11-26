@@ -6,6 +6,32 @@
 
 
 = Details =
+  * *main.html*
+    * .myTab
+    * .commentList
+    * .tl
+    * .tr
+    * .bl
+    * .br
+
+    * *header.html*
+    * #planet
+    * #planetHeader
+    * #gnb
+    * .search
+    * .inputText
+    * .button
+    * #planetBody
+    * #planetContent
+    * .tryPlanet
+    * .button .large .strong .planetBlue
+    * .leftCap
+    * .rightCap
+    * .tagCloud
+    * .open
+    * .closeButton
+    * .searchHeader
+
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
