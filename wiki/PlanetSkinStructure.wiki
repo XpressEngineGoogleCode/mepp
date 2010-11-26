@@ -16,13 +16,15 @@ XE 기본 플래닛 스킨의 파일과 폴더 목록을 구조화하여
   * *skin.xml*
 
 Body 정보를 담은 파일입니다. 헤더에서는 CSS, JS파일을 임폴트합니다.
-  * header.html
   * *main.html*
-  * footer.html
+    * header.html
+    * write.include.html
+    * content_list.html
+    * footer.html
 
   * login.html
-  * write.include.html
-  * content_list.html
+
+
   * create.html
 
   * favorite.html
