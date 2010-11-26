@@ -20,6 +20,7 @@ Body 정보를 담은 파일입니다. 헤더에서는 CSS, JS파일을 임폴�
     * header.html
     * write.include.html
     * content_list.html
+      * interest_tags.html
     * footer.html
 
   * login.html
@@ -29,7 +30,7 @@ Body 정보를 담은 파일입니다. 헤더에서는 CSS, JS파일을 임폴�
 
   * favorite.html
 
-  * interest_tags.html
+
   * memo_list.html
   * message.html
   * myPlanet.html
