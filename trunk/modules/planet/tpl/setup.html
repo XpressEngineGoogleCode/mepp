@@ -60,11 +60,11 @@
         </td>
     </tr> //수정중 ///////////////////////////////////////////////////////////////////////////////////////////////
     <tr class="row2">
-        <th scope="row"><div>{$lang->planet_default_skin}</div></th>
+        <th scope="row"><div>{$lang->planet_default_mobile_skin}</div></th>
         <td colspan="3">
-            <select name="planet_default_skin">
-                <!--@foreach($skin_list as $key=>$val)-->
-                <option value="{$key}" <!--@if($module_info->planet_default_skin==$key)-->selected="selected"<!--@end-->>{$val->title}</option>
+            <select name="planet_default_mobile_skin">
+                <!--@foreach($mskin_list as $key=>$val)-->
+                <option value="{$key}" <!--@if($module_info->planet_default_mobile_skin==$key)-->selected="selected"<!--@end-->>{$val->title}</option>
                 <!--@end-->
             </select>
             <p>{$lang->about_planet_default_skin}</p>

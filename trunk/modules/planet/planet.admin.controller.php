@@ -33,7 +33,7 @@
             $args->browser_title = Context::get('browser_title');
             $args->is_default = Context::get('is_default');
             $args->skin = Context::get('planet_default_skin');
-			$args->mobile_skin = Context::get('planet_default_mobile_skin');
+			$args->mskin = Context::get('planet_default_mobile_skin');
             $args->layout_srl = Context::get('layout_srl');
 			$args->mlayout_srl = Context::get('mlayout_srl');
 
@@ -54,6 +54,7 @@
 
             // 그외 정보 처리
             $module_info->planet_default_skin = Context::get('planet_default_skin');
+			$module_info->planet_default_mobile_skin = Context::get('planet_default_mobile_skin');
             $module_info->use_mobile = Context::get('use_mobile');
             $module_info->use_me2day = Context::get('use_me2day');
             $module_info->use_rss = Context::get('use_rss');
