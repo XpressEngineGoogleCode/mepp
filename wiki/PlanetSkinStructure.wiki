@@ -1,5 +1,4 @@
-#summary One-sentence summary of this page.
-플래닛의 스킨 구조를 정리합니다.
+#플래닛의 스킨 구조를 정리합니다.
 
 = Introduction =
 
