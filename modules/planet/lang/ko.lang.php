@@ -30,6 +30,8 @@
 	$lang->planet_default_mobile_skin = '플래닛 기본 모바일 스킨';
 	$lang->about_planet_default_skin = '플래닛 메인 페이지 및 생성된 플래닛들의 기본 스킨으로 설정됩니다.';
 
+	$lang->about_planet_mobile_view = '이곳에서의 설정은 플래닛 첫 페이지에 대한 설정이며, 각 회원의 모바일 뷰 설정은 <a href="?module=admin&act=dispPlanetAdminList">플래닛 목록 페이지</a>에서 해주시기 바랍니다.';
+
 	$lang->planet_comment = '플래닛 한줄 소개';
 	$lang->about_planet_comment = '플래닛 한줄 소개는 플래닛 접속시 브라우저 제목과 플래닛의 한줄 소개란에 표시되는 내용입니다.';
 

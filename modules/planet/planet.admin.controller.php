@@ -138,5 +138,16 @@
 			$this->add('page',Context::get('page'));
 			$this->setMessage('success_deleted');
 		}
+
+		function procPlanetAdminMobileActivate() {
+			$args->module_srl = Context::get('module_srl');
+			$type = Context::get('type');
+			if($type != 'N') $type = 'Y';
+			$args->use_mobile = $type;
+			executeQuery('planet.updatePlanetMobile', $args);
+			$this->add('module','planet');
+			$this->add('module_srl',Context::get('module_srl'));
+
+		}
 	}
 ?>

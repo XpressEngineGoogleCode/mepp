@@ -1,4 +1,5 @@
 <!--#include("./header.html")-->
+<!--%import("js/planet_mobile.js")-->
 
 <table cellspacing="0" class="rowTable">
 <caption>Total {number_format($page_navigation->total_count)}, Page {number_format($page_navigation->cur_page)}/{number_format($page_navigation->total_page)}</caption>
@@ -9,8 +10,9 @@
 		<th scope="col" class="half_wide"><div>{$lang->mid}</div></th>
 		<th scope="col" class="half_wide"><div>{$lang->browser_title}</div></th>
 		<th scope="col"><div>{$lang->regdate}</div></th>
+		<th scope="col"><div>{$lang->mobile_view}</div></th>
 		<th scope="col" colspan="2"><div>&nbsp;</div></th>
-	</tr>
+		</tr>
 </thead>
 <tbody>
 	<!--@foreach($planet_list as $no => $val)-->
@@ -20,9 +22,11 @@
 		<td>{$val->getMid()}</td>
 		<td><a href="{getUrl('','mid',$val->getMid())}" onclick="window.open(this.href); return false;" title="{htmlspecialchars($lang->cmd_view)}">{$val->getBrowserTitle()}</a></td>
 		<td>{zdate($val->get('regdate'),"Y-m-d")}</td>
+		<td><!--@if($val->get('use_mobile') == 'Y')--><a href="#" onclick="doPlanetMobile('{$val->getModuleSrl()}','N');return false;" title="{htmlspecialchars($lang->use)}" class="buttonSet buttonActive"><span>{$lang->use}</span></a><!--@else--><a href="#" onclick="doPlanetMobile('{$val->getModuleSrl()}','Y');return false;" title="{htmlspecialchars($lang->notuse)}" class="buttonSet buttonDisable"><span>{$lang->notuse}</span></a><!--@end-->
 		<td><a href="{getUrl('module_srl',$val->getModuleSrl(),'act','dispPlanetAdminInsert')}" class="buttonSet buttonSetting"><span>{$lang->cmd_setup}</span></a></td>
 		<td><a href="{getUrl('act','dispPlanetAdminDelete','module_srl',$val->getModuleSrl())}" title="{htmlspecialchars($lang->cmd_delete)}" class="buttonSet buttonDelete"><span>{$lang->cmd_delete}</span></a></td>
-	</tr>
+    </td>
+		</tr>
 	<!--@end-->
 </tbody>
 </table>
